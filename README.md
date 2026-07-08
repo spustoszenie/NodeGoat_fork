@@ -110,6 +110,8 @@ The repo includes the Dockerfile and docker-compose.yml necessary to set up the 
    ```
    docker-compose up
    ```
+AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
 ### OPTION 3 - Deploy to Heroku
 
