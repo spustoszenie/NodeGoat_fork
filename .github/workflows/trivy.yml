@@ -21,8 +21,8 @@ jobs:
           severity: 'HIGH,CRITICAL'
           exit-code: '0'
       
-      - name: Run Trivy (sarif)
-        uses: aquasecurity/trivy-action@0.28.0
+      - name: Run Trivy
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           scan-type: 'fs'
           format: 'sarif'
